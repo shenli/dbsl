@@ -1,0 +1,29 @@
+title="db.config"
+[mysql]
+
+#set connect ip and port.
+ip="localhost"
+port="3306"
+
+#set database
+database="dbsl"
+
+#set table name
+tablename="match_players"
+
+#set username and password
+username="root"
+password="abcd"
+
+[sql]
+#set create table statement
+tablestmt="CREATE TABLE match_players (match_id bigint,match_seq_num bigint,player_slot smallint,account_id bigint,hero_id smallint,kills smallint,deaths smallint,assists smallint,leaver_status smallint,last_hits smallint,denies smallint,gold_per_min int,xp_per_min int,gold_spent int,hero_damage int,tower_damage int,hero_healing int,level smallint,item_0 smallint,item_1 smallint,item_2 smallint,item_3 smallint,item_4 smallint,item_5 smallint,performance int,skill_1_id smallint,skill_2_id smallint,skill_3_id smallint,skill_4_id smallint,skill_5_id smallint,skill_6_id smallint,skill_7_id smallint,skill_8_id smallint,skill_9_id smallint,skill_10_id smallint,skill_11_id smallint,skill_12_id smallint,skill_13_id smallint,skill_14_id smallint,skill_15_id smallint,skill_16_id smallint,skill_17_id smallint,skill_18_id smallint,skill_19_id smallint,skill_20_id smallint,skill_21_id smallint,skill_22_id smallint,skill_23_id smallint,skill_24_id smallint,skill_25_id smallint,start_time timestamp,duration int,leagueid int,lobby_type int,game_mode smallint,cluster smallint,human_players int,skill int,win int);"
+#set create index statement
+indexstmt=""
+
+[goroutine]
+#set goruntine number
+goroutinenum=10
+
+[Data]
+datanumber=1000
