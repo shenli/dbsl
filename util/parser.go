@@ -92,7 +92,7 @@ func Parser() {
 
 	//parse config.toml
 	var conf Config
-	_, err := toml.DecodeFile("config.toml", &conf)
+	_, err := toml.DecodeFile("../config.toml", &conf)
 	if err != nil {
 		fmt.Println("CONFIG TOML ERROR:", err)
 		return
