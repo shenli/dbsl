@@ -1,7 +1,7 @@
 package main
 
 import (
-	"sl/util"
+	"dbsl/util"
 )
 
 func main() {
